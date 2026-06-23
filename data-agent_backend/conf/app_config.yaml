@@ -16,7 +16,7 @@ db_meta:
   port: 13800
   user: root
   password: Jing1995@
-  database: mate2
+  database: mate
 
 # 数据库dw的配置
 db_dw:
@@ -24,7 +24,7 @@ db_dw:
   port: 13800
   user: root
   password: Jing1995@
-  database: dw2
+  database: dw
 
 # qdrant的配置
 qdrant:
