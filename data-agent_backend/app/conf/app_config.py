@@ -70,6 +70,8 @@ class ESConfig:
 class LLMConfig:
     model_name: str
     api_key: str
+    base_url: str
+    model_provider: str
 
 
 # ==================== 应用总配置模型 ====================

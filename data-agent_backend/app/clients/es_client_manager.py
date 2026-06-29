@@ -11,7 +11,6 @@ class ESClientManager:
         self.config = config
         self.client: Optional[AsyncElasticsearch] = None
 
-
     def _get_url(self):
         return f"http://{self.config.host}:{self.config.port}"
 

@@ -16,7 +16,7 @@ db_meta:
   port: 13800
   user: root
   password: Jing1995@
-  database: mate
+  database: meta
 
 # 数据库dw的配置
 db_dw:
@@ -44,10 +44,15 @@ es:
   port: 19200
   index_name: data_agent
 
-# llm的配置
-llm:
-  model_name: deepseek-v4-pro
-  api_key: sk-a4df11d0f67a490cb0e87c3233949184
+## llm的配置
 #llm:
-#  model_name: deepseek-ai/DeepSeek-V4-Pro
-#  api_key: sk-trrhndpadrusjtolkeuwzjmfquilstcqsleklwiirqipyklo
+#  model_name: deepseek-v4-pro
+#  api_key: sk-a4df11d0f67a490cb0e87c3233949184
+#  base_url: https://api.deepseek.com
+#  model_provider: openai
+
+llm:
+  model_name: deepseek-ai/DeepSeek-V4-Pro
+  api_key: sk-tmjrltddjgvakroevtiscncgcfwjnomphnlhqeytgcjvjbhs
+  base_url: https://api.siliconflow.cn/v1/
+  model_provider: openai

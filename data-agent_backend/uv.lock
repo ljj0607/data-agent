@@ -285,6 +285,7 @@ dependencies = [
     { name = "langgraph" },
     { name = "loguru" },
     { name = "omegaconf" },
+    { name = "pyyaml" },
     { name = "qdrant-client" },
     { name = "sqlalchemy" },
 ]
@@ -303,6 +304,7 @@ requires-dist = [
     { name = "langgraph", specifier = "==1.0.7" },
     { name = "loguru", specifier = "==0.7.3" },
     { name = "omegaconf", specifier = "==2.3.0" },
+    { name = "pyyaml", specifier = ">=6.0.3" },
     { name = "qdrant-client", specifier = ">=1.18.0" },
     { name = "sqlalchemy", specifier = "==2.0.46" },
 ]

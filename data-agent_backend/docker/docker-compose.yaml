@@ -7,7 +7,7 @@ services:
       - "13800:3306"
     environment:
       MYSQL_ROOT_PASSWORD: Jing1995@
-      MYSQL_DATABASE: mate
+      MYSQL_DATABASE: meta
     volumes:
       - ./mysql/data:/var/lib/mysql
 
